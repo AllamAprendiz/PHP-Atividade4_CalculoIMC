@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4 IMC</title>
+    <!-- CRIA A ESTILIZAÇÃO COM BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FIM DA ESTILIZAÇÃO COM BOOTSTRAP4 -->
+</head>
+<body>
+    <form action="index.php" method="post">
+
+        <div class="container">
+
+        <!-- CRIA O TÍTULO DA PÁGINA -->
+        <div>
+            <h3 style="color: black;border-color: white 2px;">
+                CÁLCULO DE IMC COM PHP
+            </h3>
+            <h2 style="color: black;border-color: white 1px;">
+                Acompanhe sua saude corretamente
+            </h2>
+        </div>
+        <!-- FIM DO TÍTULO E SUBTITULO -->
+        
+        <!-- CRIA O INPUT DE PESO -->
+        <label for="Peso_for">Peso</label>
+            <input type="number" name="Peso_name" id="Peso_id" step="0.01">
+        <!-- FIM DO INPUT DO PESO -->
+
+        <br>
+
+        <!-- CRIA O INPUT DA ALTURA -->
+        <label for="Altura_for">Altura</label>
+            <input type="number" name="Altura_name" id="Altura_id" step="0.01">
+        <!-- FIM DO INPUT DA ALTURA -->
+
+        <br>
+
+        <!-- CRIA O BOTÃO DE CALCULAR -->
+        <input type="submit" id="Calcular_id" value="CALCULAR" step="0.01" class="btn btn-primary">
+        <!-- FIM DO BOTÃO CALCULAR -->
+    </form>
+    <div>
+</body>
+</html>
